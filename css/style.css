@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-LightItalic.woff2") format("woff2"), url("../fonts/Gilroy-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style-type: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+body {
+	font-family: Roboto;
+	color: rgba(155, 149, 149, 0.897);
+}
+
+.header {
+	text-align: center;
+	text-shadow: 0px 0px 17px rgba(131, 170, 150, 1);
+}
+.header p a {
+	font-size: 80px;
+	color: #e27171;
+}
+.list li {
+	font-size: 60px;
+	color: red;
+}
+
+li span {
+	font-size: 100px;
+	color: burlywood;
+	text-transform: uppercase;
+}
+.main {
+	font-family: Lora;
+	color: silver;
+}
+.title {
+	font-family: Gilroy;
+	color: slateblue;
+	font-size: 40px;
+}
+.title span {
+	color: tomato;
+}
+img {
+	width: 600px;
+}
+.text {
+	line-height: 171%;
+}
+.text p {
+	text-decoration: underline;
+	color: rgb(255, 71, 209);
+	text-align: right;
+}
+
+#word {
+	font-weight: 700;
+	font-size: 35px;
+	color: violet;
+}
+#text {
+	text-shadow: 1px 1px 1px grey, 0 0 1em #1800ffb0;
+}
+.transform {
+	text-decoration: line-through;
+	color: black;
+}
+.block {
+	text-align: center;
+	letter-spacing: 10px;
+	text-indent: 100px;
+}
